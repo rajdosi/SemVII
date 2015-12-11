@@ -1,0 +1,52 @@
+{
+int a;
+int b;
+int c;
+int d;
+int i;
+	a=b+c.
+	if(a>b)
+	{
+		a=c*a-b.
+		while(a<b)
+		{
+			a=c*c.
+			d=a/b.
+		}
+	}
+	else if(a==a+b)
+	{
+		a=b.
+		b=a*c.
+	}
+	else if(a==a*b)
+	{
+		a=b.
+		b=a*c.
+	}
+	while(a<b)
+	{
+		a=c*c.
+		d=a/b.
+		if(a>b)
+		{
+			a=c*a-b.
+			while(a<b)
+			{
+				a=c*c.
+				d=a/b.
+			}
+		}
+		else if(a==a+b)
+		{
+			a=b.
+			b=a*c.
+		}
+		else if(a==a*b)
+		{
+			a=b.
+			b=a*c.
+		}
+	}
+	
+}

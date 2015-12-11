@@ -1,0 +1,115 @@
+=  1  a  MOV R1, b. ADD R1, c. MOV a, R1. 
+a  0  a  
++  1  R1  MOV R1, b. ADD R1, c. 
+b  1  R1  MOV R1, b. 
+c  0  c  
+
+
+=  1  a  MOV R1, c. MUL R1, a. SUB R1, b. MOV a, R1. 
+a  0  a  
+-  1  R1  MOV R1, c. MUL R1, a. SUB R1, b. 
+*  1  R1  MOV R1, c. MUL R1, a. 
+c  1  R1  MOV R1, c. 
+a  0  a  
+b  0  b  
+
+
+=  1  a  MOV R1, c. MUL R1, c. MOV a, R1. 
+a  0  a  
+*  1  R1  MOV R1, c. MUL R1, c. 
+c  1  R1  MOV R1, c. 
+c  0  c  
+
+
+=  1  d  MOV R1, a. DIV R1, b. MOV d, R1. 
+d  0  d  
+/  1  R1  MOV R1, a. DIV R1, b. 
+a  1  R1  MOV R1, a. 
+b  0  b  
+
+
+=  1  a  MOV a, b. 
+a  0  a  
+b  0  b  
+
+
+=  1  b  MOV R1, a. MUL R1, c. MOV b, R1. 
+b  0  b  
+*  1  R1  MOV R1, a. MUL R1, c. 
+a  1  R1  MOV R1, a. 
+c  0  c  
+
+
+=  1  a  MOV a, b. 
+a  0  a  
+b  0  b  
+
+
+=  1  b  MOV R1, a. MUL R1, c. MOV b, R1. 
+b  0  b  
+*  1  R1  MOV R1, a. MUL R1, c. 
+a  1  R1  MOV R1, a. 
+c  0  c  
+
+
+=  1  a  MOV R1, c. MUL R1, c. MOV a, R1. 
+a  0  a  
+*  1  R1  MOV R1, c. MUL R1, c. 
+c  1  R1  MOV R1, c. 
+c  0  c  
+
+
+=  1  d  MOV R1, a. DIV R1, b. MOV d, R1. 
+d  0  d  
+/  1  R1  MOV R1, a. DIV R1, b. 
+a  1  R1  MOV R1, a. 
+b  0  b  
+
+
+=  1  a  MOV R1, c. MUL R1, a. SUB R1, b. MOV a, R1. 
+a  0  a  
+-  1  R1  MOV R1, c. MUL R1, a. SUB R1, b. 
+*  1  R1  MOV R1, c. MUL R1, a. 
+c  1  R1  MOV R1, c. 
+a  0  a  
+b  0  b  
+
+
+=  1  a  MOV R1, c. MUL R1, c. MOV a, R1. 
+a  0  a  
+*  1  R1  MOV R1, c. MUL R1, c. 
+c  1  R1  MOV R1, c. 
+c  0  c  
+
+
+=  1  d  MOV R1, a. DIV R1, b. MOV d, R1. 
+d  0  d  
+/  1  R1  MOV R1, a. DIV R1, b. 
+a  1  R1  MOV R1, a. 
+b  0  b  
+
+
+=  1  a  MOV a, b. 
+a  0  a  
+b  0  b  
+
+
+=  1  b  MOV R1, a. MUL R1, c. MOV b, R1. 
+b  0  b  
+*  1  R1  MOV R1, a. MUL R1, c. 
+a  1  R1  MOV R1, a. 
+c  0  c  
+
+
+=  1  a  MOV a, b. 
+a  0  a  
+b  0  b  
+
+
+=  1  b  MOV R1, a. MUL R1, c. MOV b, R1. 
+b  0  b  
+*  1  R1  MOV R1, a. MUL R1, c. 
+a  1  R1  MOV R1, a. 
+c  0  c  
+
+

@@ -1,0 +1,27 @@
+# include<bits/stdc++.h>
+using namespace std;
+
+int main()
+	{
+	int i=0;
+	string inp,temp;
+	map <string,int> dict;
+	cin>>inp;
+	//inp=inp+'0';
+	while (inp[i]!='\0')
+		{
+		temp="\0";
+		temp=temp+inp[i];
+		i++;
+		while (dict.find(temp)!=dict.end())
+			{			
+			temp=temp+inp[i];
+			i++;
+			}
+		dict[temp]=temp.length();
+		cout<<temp<<endl;		
+		}		
+	//for (map <string,int>:: it=dict.begin();it!=dict.end();it++)
+	//	cout<<dic
+	return 0;
+	}

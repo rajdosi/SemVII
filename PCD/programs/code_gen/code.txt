@@ -1,0 +1,88 @@
+MOV R1, b
+ADD R1, c
+MOV a, R1
+JMPLE a, b, Lable_0
+MOV R1, c
+MUL R1, a
+SUB R1, b
+MOV a, R1
+Lable_1 :
+JMPGE a, b, Lable_exit_0
+MOV R1, c
+MUL R1, c
+MOV a, R1
+MOV R1, a
+DIV R1, b
+MOV d, R1
+JMP Lable_1
+Lable_exit_0 :
+
+JMP Lable_exit_1
+
+Lable_0 :
+JMPNE a, +, Lable_2
+MOV a, b
+MOV R1, a
+MUL R1, c
+MOV b, R1
+JMP Lable_exit_1
+
+Lable_0 :
+JMPNE a, *, Lable_3
+MOV a, b
+MOV R1, a
+MUL R1, c
+MOV b, R1
+JMP Lable_exit_1
+
+Lable_0 :
+
+Lable_exit_1 :
+Lable_4 :
+JMPGE a, b, Lable_exit_2
+MOV R1, c
+MUL R1, c
+MOV a, R1
+MOV R1, a
+DIV R1, b
+MOV d, R1
+JMPLE a, b, Lable_5
+MOV R1, c
+MUL R1, a
+SUB R1, b
+MOV a, R1
+Lable_6 :
+JMPGE a, b, Lable_exit_2
+MOV R1, c
+MUL R1, c
+MOV a, R1
+MOV R1, a
+DIV R1, b
+MOV d, R1
+JMP Lable_6
+Lable_exit_2 :
+
+JMP Lable_exit_3
+
+Lable_5 :
+JMPNE a, +, Lable_7
+MOV a, b
+MOV R1, a
+MUL R1, c
+MOV b, R1
+JMP Lable_exit_3
+
+Lable_5 :
+JMPNE a, *, Lable_8
+MOV a, b
+MOV R1, a
+MUL R1, c
+MOV b, R1
+JMP Lable_exit_3
+
+Lable_5 :
+
+Lable_exit_3 :
+JMP Lable_8
+Lable_exit_4 :
+
